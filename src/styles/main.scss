@@ -1,7 +1,14 @@
-@import "./utils/mixins";
-@import "./utils/variables";
-@import "./blocks/calendar.scss";
-
-body {
-  margin: 0;
-}
+@import 'utils/variables';
+@import 'utils/mixin';
+@import 'blocks/page';
+@import 'blocks/container';
+@import 'blocks/icon';
+@import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/footer';
+@import 'blocks/about';
+@import 'blocks/place';
+@import 'blocks/button';
+@import 'blocks/personal';
+@import 'blocks/contact';
+@import 'blocks/form';
