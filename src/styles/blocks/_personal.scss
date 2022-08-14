@@ -1,0 +1,42 @@
+.personal {
+    margin-top: 40px;
+    margin-bottom: 28px;
+    margin: 0 auto;
+    align-items: center;
+    width: 324px;
+
+    &__photo {
+        margin: 0 auto;
+        display: block;
+        width: 153px;
+        height: 153px;
+    }
+
+    &__name {
+        margin: 28px 0 4px 0;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: $colorBlue;
+        text-decoration: none;
+    }
+
+    &__role {
+        margin: 0 0 4px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        text-align: center;
+        color: #9FADC2;
+    }
+
+    &__info {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: center;
+        color: #3E3E3E;
+    }
+}

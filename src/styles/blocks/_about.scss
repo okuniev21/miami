@@ -1,0 +1,59 @@
+.about {
+    &__title {
+        margin: 0 0 48px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: -1.5px;
+        color: #000000;
+
+        @include onDesktop {
+            width: 324px;
+            height: 145px;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -1.5px;
+            margin-left: 120px;
+        }
+    }
+
+    &__title-link {
+        color: $colorBlue;
+        text-decoration: none;
+    }
+
+    &__text {
+        padding: 0 20px;
+
+        @include onDesktop {
+            width: 498px;
+            height: 357px;
+            margin-right: 198px;
+        }
+    }
+
+    &__text-link {
+        color: $colorBlue;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+
+    &__text-paragraph {
+        margin: 0 0 27px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #3E3E3E;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+
+        &-important {
+            font-weight: bold;
+        }
+    }
+}

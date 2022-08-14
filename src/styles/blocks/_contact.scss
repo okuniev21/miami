@@ -1,0 +1,39 @@
+.contact {
+    @include onDesktop {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 93px;
+    }
+
+    &__info {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color: #9FADC2;
+
+        @include onDesktop {
+            width: 150px;
+        }
+    }
+
+    &__link {
+        display: block;
+        margin-bottom: 24px;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #3E3E3E;
+
+        @include onDesktop{
+            margin-right: 111px;
+            width: 150px;
+        }
+    }
+
+    &__field {
+        margin: 0 0 16px;
+    }
+}

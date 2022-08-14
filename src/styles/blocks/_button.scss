@@ -1,0 +1,49 @@
+.button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 14px;
+    padding: 21px;
+    color: $colorBlue;
+
+    border: 2px solid $colorBlue;
+    border-radius: 8px;
+
+    transition: all 0.3s;
+
+    &:hover {
+        border-color: #005ECC;
+        background: #005ECC;
+        box-shadow: 0px 13px 27px rgba(0, 83, 181, 0.46);
+        border-radius: 8px;
+        color: #fff;
+    }
+
+    &:active {
+        border-color: #005ECC;
+        background: #005ECC;
+        box-shadow: 0px 8px 14px rgba(0, 83, 181, 0.48);
+        border-radius: 8px;
+        color: #fff;
+    }
+
+    @include onDesktop {
+        width: 150px;
+        height: 56px;
+    }
+
+    &-primary {
+        color: #fff;
+        border-color: #0075FF;
+        background-color: #0075FF;
+        width: 100%;  
+
+        @include onDesktop {
+            width: 411px;
+        }    
+    }
+}
